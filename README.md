@@ -2,7 +2,7 @@
 The Forticlient Windows package was built based on the Nullsoft Scriptable Installer System (https://sourceforge.net/projects/nsis/). The first package was produced using version 3.06 of the NSIS software.
 
 
-WARNING: This is an ugly hack. I am not a Windows installer expert. This is the result of a few hours of using Google and a few failures using other installer packages. That said, this process works and you get a Forticlient installer with your confiugration pre-insalled.
+WARNING: This is an ugly hack. I am not a Windows installer expert. This is the result of a few hours of using Google and a few failures using other installer packages. That said, this process works and you get a Forticlient installer with your configuration pre-insalled.
 
 Prerequisites for building:
 
@@ -37,7 +37,7 @@ Reg2Nsis.exe XYZ.reg
 The new installer should be dropped in your build directory. 
 
 
-Feel free to reach out with any questions if you get stuck. I appologize for the ugly in this script, but it DOES work. -Josh (josh@microbrainsoftware.com)
+Feel free to reach out with any questions if you get stuck. I apologize for the ugly in this script, but it DOES work. -Josh (josh@microbrainsoftware.com)
 
 
 
