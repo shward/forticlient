@@ -27,7 +27,7 @@ Build process:
 2. Put your SSL code singing certificate, the signtool.exe utility, and reg2nsis.exe in your directory
 3. Extract the forticlient msi using 7Zip or other utility in to your build directory
 4. Extract your registry values and save two registry files in your build directory. The values can be found at: HKEY_LOCAL_MACHIN\SOFTWARE\Fortinet\FortiClient\ . Make sure you ONLY get the IPSec and Sslvpn trees as the rest of the data shouldn't be overwritten with the installer.
-[registry image](https://github.com/shward/forticlient/blob/main/Resources/reg-edit.png?raw=true)
+![registry image](https://github.com/shward/forticlient/blob/main/Resources/reg-edit.png?raw=true)
 5. Run reg2nsis on each of the SSL and IPSec registry files
 Reg2Nsis.exe XYZ.reg
 6. Edit the installer.nsi file and update with your code signing certificate, the registry key output from reg2nsis, and update any reference to XYZ with your org name or what you want your installer to be called.
