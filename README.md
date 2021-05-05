@@ -1,4 +1,4 @@
-# forticlient
+# forticlient custom installer
 The Forticlient Windows package was built based on the Nullsoft Scriptable Installer System (https://sourceforge.net/projects/nsis/). The first package was produced using version 3.06 of the NSIS software.
 
 
