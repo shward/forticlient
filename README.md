@@ -19,8 +19,6 @@ Since you are building from an example Forticlient on a build-machine, DO NOT SA
 
 
 
-
-
 Build process:
 
 1. Create a directory to build this installer
@@ -30,7 +28,16 @@ Build process:
 ![registry image](https://github.com/shward/forticlient/blob/main/Resources/reg-edit.png?raw=true)
 5. Run reg2nsis on each of the SSL and IPSec registry files
 Reg2Nsis.exe XYZ.reg
-6. Edit the installer.nsi file and update with your code signing certificate, the registry key output from reg2nsis, and update any reference to XYZ with your org name or what you want your installer to be called.
+6. Edit the installer.nsi file and update with your code signing certificate, the registry key output from reg2nsis, and any reference to XYZ with the appropriate value for your org.
+7. Launch the Nullsoft installer and select compile NSI script
+![registry image](https://github.com/shward/forticlient/blob/main/Resources/nsis-1.png?raw=true)
+8. Load your NSI script and watch the magic unfold!
+![registry image](https://github.com/shward/forticlient/blob/main/Resources/nsis-2.png?raw=true)
+
+The new installer should be dropped in your build directory. 
+
+
+Feel free to reach out with any questions if you get stuck. I appologize for the ugly in this script, but it DOES work. -Josh (josh@microbrainsoftware.com)
 
 
 
