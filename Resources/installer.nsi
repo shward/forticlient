@@ -83,7 +83,7 @@ Section "Forticlient Package" SEC06
   Delete "$INSTDIR\*"
   RMDir "$INSTDIR"
 
-  MessageBox MB_YESNO "Installation complete. Click Yes to reboot your comptuer now or No if you intend to reboot later. Please reboot before attempting to use the updated Forticlient!" IDNO +2 
+  MessageBox MB_YESNO "Installation complete. Click Yes to reboot your computer now or No if you intend to reboot later. Please reboot before attempting to use the updated Forticlient!" IDNO +2 
   Reboot
  
   Goto next2
